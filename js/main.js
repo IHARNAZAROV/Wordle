@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         keyWord = generateNewWord();
 
-       console.log(`pss.. the word in ${keyWord}`);
+        console.log(`pss.. the word in ${keyWord}`);
 
         createSquares();
 

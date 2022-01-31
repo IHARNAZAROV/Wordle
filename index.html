@@ -16,27 +16,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <title>Wordle Russian</title>
     <script src="js/main.js"></script>
-
     <link rel="stylesheet" href="css/styles.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
     <div id="container">
-        
+
         <div id="game">
             <header>
                 <h1 class="title">Wordle Russian</h1>
-       
+
+<!--Start of Modal -->
+<div class="modal">
+    <input id="modal__trigger" type="checkbox" />
+    <label for="modal__trigger">Правила</label>
+    <div class="modal__overlay" role="dialog" aria-labelledby="modal__title" aria-describedby="modal_desc">
+        <div class="modal__wrap">
+            <label for="modal__trigger">&#10006;</label>
+            <h2 id="modal__title">Подробные правила игры Wordle</h2>
+            <p id="modal__desc">
+                Правила игры Wordle достаточно просты.<br> Первое слово вводится на клавиатуре наугад(любое из 5 букв), далее нужно нажать кнопку «ввод» и посмотреть на цвет букв.<br> В действие вступают цветовые подсказки, а именно:
+                если указанной игроком буквы в слове нет, то клетка останется серой;
+                если буква есть, но стоит не на своем месте – клетка будет подсвечиваться желтым;
+                клетка станет зеленой, если буква не только есть, но и находится в правильном месте слова.<br>
+                Игроку дается шесть попыток для того, чтобы угадать зашифрованное слово.
+            
+                </p>
+        </div>
+    </div>
+</div>
+<!--End of Modal -->
+
             </header>
-
-
-
-
             <div id="board-container">
                 <div id="board"></div>
             </div>
+
+
+
 
             <div id="keyboard-container">
                 <div class="keyboard-row">
