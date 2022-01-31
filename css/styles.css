@@ -47,7 +47,7 @@ header {
     margin: 0.4rem 0 0.4rem 0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding: 3%;
+    padding: 1%;
 
 }
 
@@ -156,6 +156,7 @@ button:hover {
     padding: 0.75em 1.5em;
     transition: all 0.55s;
     font-family: 'Poppins', sans-serif;
+  margin-right: -17px;
 }
 
 .modal>label:hover {
@@ -243,3 +244,23 @@ input:checked~.modal__overlay {
     transform: scale(1);
     z-index: 800;
 }
+
+.refresh {
+    background: #686b70;
+    border: 1px solid #d6b87c;
+    border-radius: .2em;
+    color: #141D2F;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.75em 1.5em;
+    transition: all 0.55s;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 5%;
+    font-size: 16px;
+}
+
+    .refresh:hover {
+        transform: scale(0.97);
+        background: #686b70;
+    }
