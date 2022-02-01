@@ -13,8 +13,8 @@ To play the game, players have six tries to guess a five-letter word. Many users
 
 ## Demo
 
-Insert gif or link to demo
 
 [Wordle Russian](https://tery-wordle.netlify.app)
+
 ## 🚀 About Me
 I'm a Junior frontend developer from Belarus
