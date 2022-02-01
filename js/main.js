@@ -299,6 +299,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-
-
 })
