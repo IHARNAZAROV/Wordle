@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let keys = [];
     let keyLookup = {};
 
-    var nextSquareIndex = 1;
+    let nextSquareIndex = 1;
 
     const createScene = async () => {
         guessedWords = [
